@@ -56,22 +56,15 @@ base_package_remove:
 
 flatpak_package_install:
   - { name: 'Anki', remote: 'flathub', package: 'net.ankiweb.Anki' }
-  - { name: 'Cockpit Client', remote: 'flathub', package: 'org.cockpit_project.CockpitClient' }
   - { name: 'Extension Manager', remote: 'flathub', package: 'com.mattjakeman.ExtensionManager' }
-  - { name: 'Eye of GNOME', remote: 'flathub', package: 'org.gnome.eog' }
   - { name: 'Firefox', remote: 'flathub', package: 'org.mozilla.firefox' }
   - { name: 'Firmware', remote: 'flathub', package: 'org.gnome.Firmware' }
   - { name: 'Flatseal', remote: 'flathub', package: 'com.github.tchx84.Flatseal' }
   - { name: 'GNOME Boxes', remote: 'flathub', package: 'org.gnome.Boxes' }
-  - { name: 'Paleta', remote: 'flathub', package: 'io.github.nate_xyz.Paleta' }
   - { name: 'Planify', remote: 'flathub', package: 'io.github.alainm23.planify' }
-  - { name: 'Podcasts', remote: 'flathub', package: 'org.gnome.Podcasts' }
   - { name: 'Pods', remote: 'flathub', package: 'com.github.marhkb.Pods' }
-  - { name: 'Ptyxis', remote: 'flathub', package: 'app.devsuite.Ptyxis' }
   - { name: 'Remmina', remote: 'flathub', package: 'org.remmina.Remmina' }
-  - { name: 'Totem', remote: 'flathub', package: 'org.gnome.Totem' }
-  - { name: 'VS Code', remote: 'flathub', package: 'com.visualstudio.code' }
-  - { name: 'Zoom', remote: 'flathub', package: 'us.zoom.Zoom' }
+  - { name: 'Slack', remote: 'flathub', package: 'com.slack.Slack' }
 
 # The 'settings' role #
 #######################
