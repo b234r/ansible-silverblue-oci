@@ -30,10 +30,26 @@ layered_package_install:
   - python3-ansible-lint
   - python3-psutil
   - tailscale
-  - tig
-  - vim
   - yamllint
   - zenity
+  - bat
+  - bat-extras
+  - btop
+  - cowsay
+  - eza
+  - fd-find
+  - fortune-mod
+  - fzf
+  - lazygit
+  - lolcat
+  - neofetch
+  - neovim
+  - ripgrep
+  - stow
+  - trash-cli
+  - zoxide
+  - zsh
+  - zsh-completions
 
 base_package_remove:
   - firefox firefox-langpacks  # These pkgs need to be on the same line, otherwise ostree errors out.
