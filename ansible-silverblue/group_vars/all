@@ -48,14 +48,12 @@ layered_package_install:
   - fzf
   - lazygit
   - lolcat
-  - neofetch
   - neovim
   - ripgrep
   - stow
   - trash-cli
   - zoxide
   - zsh
-  - zsh-completions
 
 base_package_remove:
   - firefox firefox-langpacks  # These pkgs need to be on the same line, otherwise ostree errors out.
