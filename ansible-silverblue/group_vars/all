@@ -18,6 +18,7 @@ flatpak_remote_install:
 copr_repos:
   - https://copr.fedorainfracloud.org/coprs/atim/lazygit/repo/fedora-41/atim-lazygit-fedora-41.repo
   - https://copr.fedorainfracloud.org/coprs/awood/bat-extras/repo/fedora-41/awood-bat-extras-fedora-41.repo
+  - https://copr.fedorainfracloud.org/coprs/che/nerd-fonts/repo/fedora-41/che-nerd-fonts-fedora-41.repo
 
 # The 'layered_packages' role #
 ###############################
@@ -54,6 +55,11 @@ layered_package_install:
   - trash-cli
   - zoxide
   - zsh
+  - fontawesome-fonts-all
+  - fontawesome-fonts-web
+  - fontawesome4-fonts
+  - fontawesome4-fonts-web
+  - nerd-fonts
 
 base_package_remove:
   - firefox firefox-langpacks  # These pkgs need to be on the same line, otherwise ostree errors out.
