@@ -3,6 +3,7 @@
 - hosts: all
   gather_facts: false
   roles:
+    - { role: copr_repos }
     - { role: layered_packages }
     - { role: flatpaks }
 #   - { role: google_cloud_sdk }

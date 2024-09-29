@@ -13,6 +13,12 @@ flatpak_remote_install:
 # - { name: 'flathub-beta', url: 'https://flathub.org/beta-repo/flathub-beta.flatpakrepo' }       # Flathub Beta
 # - { name: 'kdeapps', url: 'https://distribute.kde.org/kdeapps.flatpakrepo' }                    # KDE applications
 
+# The 'copr_repo' role #
+###############################
+copr_repos:
+  - https://copr.fedorainfracloud.org/coprs/atim/lazygit/repo/fedora-41/atim-lazygit-fedora-41.repo
+  - https://copr.fedorainfracloud.org/coprs/awood/bat-extras/repo/fedora-41/awood-bat-extras-fedora-41.repo
+
 # The 'layered_packages' role #
 ###############################
 layered_package_install:

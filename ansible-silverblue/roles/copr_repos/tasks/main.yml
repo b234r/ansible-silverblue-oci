@@ -1,0 +1,8 @@
+# tasks file for copr_repos
+
+- name: Download copr repos
+  ansible.builtin.get_url:
+    url: "{{ item }}"
+    dest: /etc/yum.repos.d/
+    mode: '0440'
+  loop: "{{ copr_repos }}"
