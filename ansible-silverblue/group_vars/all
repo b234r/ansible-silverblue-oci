@@ -73,8 +73,9 @@ flatpak_package_install:
   - { name: 'GNOME Boxes', remote: 'flathub', package: 'org.gnome.Boxes' }
   - { name: 'Planify', remote: 'flathub', package: 'io.github.alainm23.planify' }
   - { name: 'Pods', remote: 'flathub', package: 'com.github.marhkb.Pods' }
-  - { name: 'Remmina', remote: 'flathub', package: 'org.remmina.Remmina' }
   - { name: 'Slack', remote: 'flathub', package: 'com.slack.Slack' }
+  - { name: 'Postman', remote: 'flathub', package: 'com.getpostman.Postman' }
+  - { name: 'Cameractrls', remote" 'flathub', package: 'hu.irl.cameractrls' }
 
 # The 'settings' role #
 #######################
