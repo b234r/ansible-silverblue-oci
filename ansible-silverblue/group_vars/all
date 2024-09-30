@@ -13,7 +13,7 @@ flatpak_remote_install:
 # - { name: 'flathub-beta', url: 'https://flathub.org/beta-repo/flathub-beta.flatpakrepo' }       # Flathub Beta
 # - { name: 'kdeapps', url: 'https://distribute.kde.org/kdeapps.flatpakrepo' }                    # KDE applications
 
-# The 'copr_repo' role #
+# The 'copr_repos' role #
 ###############################
 copr_repos:
   - https://copr.fedorainfracloud.org/coprs/atim/lazygit/repo/fedora-41/atim-lazygit-fedora-41.repo
@@ -60,6 +60,11 @@ layered_package_install:
   - fontawesome4-fonts
   - fontawesome4-fonts-web
   - nerd-fonts
+  - gnome-shell-extension-gpaste
+  - gnome-shell-extension-just-perfection
+  - gnome-shell-extension-drive-menu
+  - gnome-shell-extension-windowsNavigator
+  - gnome-shell-extension-system-monitor
 
 base_package_remove:
   - firefox firefox-langpacks  # These pkgs need to be on the same line, otherwise ostree errors out.
@@ -75,7 +80,7 @@ flatpak_package_install:
   - { name: 'Pods', remote: 'flathub', package: 'com.github.marhkb.Pods' }
   - { name: 'Slack', remote: 'flathub', package: 'com.slack.Slack' }
   - { name: 'Postman', remote: 'flathub', package: 'com.getpostman.Postman' }
-  - { name: 'Cameractrls', remote" 'flathub', package: 'hu.irl.cameractrls' }
+  - { name: 'Cameractrls', remote: 'flathub', package: 'hu.irl.cameractrls' }
 
 # The 'settings' role #
 #######################
